@@ -1,0 +1,87 @@
+.main-container{
+    width: 100vw;
+    height: 100vh;
+}
+
+.main-container-header{
+    height: 15%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container-body{
+    height: 77%;
+    overflow: auto;
+}
+
+.main-container-body-sections{
+    margin: 1em;
+}
+
+.main-container-body-sections-personal-details, 
+.main-container-body-sections-education,
+.main-container-body-sections-experience, 
+.main-container-body-sections-skills,
+.main-container-body-sections-objective,
+.main-container-body-sections-Reference{
+    margin: 1em;
+}
+
+.main-container-body-sections-personal-details h3, 
+.main-container-body-sections-education h3,
+.main-container-body-sections-experience h3,
+.main-container-body-sections-skills h3,
+.main-container-body-sections-objective h3,
+.main-container-body-sections-Reference h3{
+    margin: 1em;
+}
+
+.main-container-body-sections-personal-details > div, 
+.main-container-body-sections-education > div,
+.main-container-body-sections-experience > div,
+.main-container-body-sections-skills > div,
+.main-container-body-sections-objective > div,
+.main-container-body-sections-Reference > div > div{
+    margin: 1em 1em 1em 2em;
+}
+
+.main-container-body-sections-personal-details .address, 
+.main-container-body-sections-experience .details,
+.main-container-body-sections-skills .skills,
+.main-container-body-sections-objective .objective{
+    display: flex;
+    align-items: center;
+}
+
+.main-container-body-sections-experience .start-date-end-date{
+    display: flex;
+}
+
+
+.main-container-body-more-sections{
+    padding: 1em;
+}
+
+
+
+
+
+.main-container-body-manage-sections{
+    padding: 1em;
+}
+
+
+
+.main-container-footer{
+    height: 8%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
