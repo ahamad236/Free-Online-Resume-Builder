@@ -18,6 +18,10 @@
 
 .main-container-body-sections{
     margin: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .main-container-body-sections-personal-details, 
@@ -27,6 +31,11 @@
 .main-container-body-sections-objective,
 .main-container-body-sections-Reference{
     margin: 1em;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .main-container-body-sections-personal-details h3, 
