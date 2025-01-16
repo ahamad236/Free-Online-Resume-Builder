@@ -16,6 +16,7 @@
     overflow: auto;
 }
 
+
 .main-container-body-sections{
     margin: 1em;
     display: flex;
@@ -23,6 +24,7 @@
     align-items: center;
     justify-content: center;
 }
+
 
 .main-container-body-sections-personal-details, 
 .main-container-body-sections-education,
