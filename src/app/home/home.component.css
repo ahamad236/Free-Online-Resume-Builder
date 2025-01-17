@@ -1,5 +1,6 @@
 .main-container{
     width: 100vw;
+
     height: 100vh;
 }
 
@@ -7,6 +8,7 @@
 .main-container-header{
     height: 15%;
     background-color: aqua;
+    
     display: flex;
     justify-content: center;
     align-items: center;
