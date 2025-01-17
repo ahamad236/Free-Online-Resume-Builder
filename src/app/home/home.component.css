@@ -8,7 +8,7 @@
 .main-container-header{
     height: 15%;
     background-color: aqua;
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,7 +28,6 @@
     align-items: center;
     justify-content: center;
 }
-
 
 .main-container-body-sections-personal-details, 
 .main-container-body-sections-education,
