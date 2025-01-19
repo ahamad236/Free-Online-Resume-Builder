@@ -4,7 +4,6 @@
     height: 100vh;
 }
 
-
 .main-container-header{
     height: 15%;
     background-color: aqua;
@@ -14,12 +13,10 @@
     align-items: center;
 }
 
-
 .main-container-body{
     height: 77%;
     overflow: auto;
 }
-
 
 .main-container-body-sections{
     margin: 1em;
