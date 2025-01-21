@@ -59,6 +59,28 @@
     margin: 1em 1em 1em 2em;
 }
 
+.main-container-body-sections-personal-details .name,
+.main-container-body-sections-personal-details .address,
+.main-container-body-sections-personal-details .email,
+.main-container-body-sections-personal-details .phone{
+    display: flex;
+    width: 50%;
+}
+
+.main-container-body-sections-personal-details .name label,
+.main-container-body-sections-personal-details .address label,
+.main-container-body-sections-personal-details .email label,
+.main-container-body-sections-personal-details .phone label{
+    width: 40%;
+}
+
+.main-container-body-sections-personal-details .name input,
+.main-container-body-sections-personal-details .address textarea,
+.main-container-body-sections-personal-details .email input,
+.main-container-body-sections-personal-details .phone input{
+    width: 60%;
+}
+
 .main-container-body-sections-personal-details .address, 
 .main-container-body-sections-experience .details,
 .main-container-body-sections-skills .skills,
