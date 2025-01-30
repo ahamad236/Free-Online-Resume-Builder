@@ -63,7 +63,11 @@
 .main-container-body-sections-education .course-degree,
 .main-container-body-sections-education .school-university,
 .main-container-body-sections-education .grade-score,
-.main-container-body-sections-education .year{
+.main-container-body-sections-education .year,
+.main-container-body-sections-experience .company-name,
+.main-container-body-sections-experience .job-title,
+.main-container-body-sections-experience .start-date-end-date,
+.main-container-body-sections-experience .details{
     display: flex;
     width: 50%;
 }
@@ -75,7 +79,11 @@
 .main-container-body-sections-education .course-degree label,
 .main-container-body-sections-education .school-university label,
 .main-container-body-sections-education .grade-score label,
-.main-container-body-sections-education .year label{
+.main-container-body-sections-education .year label,
+.main-container-body-sections-experience .company-name label,
+.main-container-body-sections-experience .job-title label,
+.main-container-body-sections-experience .start-date-end-date label,
+.main-container-body-sections-experience .details label{
     width: 40%;
 }
 
@@ -86,7 +94,11 @@
 .main-container-body-sections-education .course-degree input,
 .main-container-body-sections-education .school-university input,
 .main-container-body-sections-education .grade-score input,
-.main-container-body-sections-education .year input{
+.main-container-body-sections-education .year input,
+.main-container-body-sections-experience .company-name input,
+.main-container-body-sections-experience .job-title input,
+.main-container-body-sections-experience .start-date-end-date input,
+.main-container-body-sections-experience .details textarea{
     width: 60%;
 }
 
