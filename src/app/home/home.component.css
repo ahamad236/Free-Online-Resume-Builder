@@ -52,7 +52,8 @@
 .main-container-body-sections-experience > div,
 .main-container-body-sections-skills > div,
 .main-container-body-sections-objective > div,
-.main-container-body-sections-Reference > div > div{
+/* .main-container-body-sections-Reference > div > div{ */
+.main-container-body-sections-Reference > div{
     margin: 1em 1em 1em 2em;
 }
 
@@ -69,7 +70,12 @@
 .main-container-body-sections-experience .start-date-end-date,
 .main-container-body-sections-experience .details,
 .main-container-body-sections-skills .skills,
-.main-container-body-sections-objective .objective{
+.main-container-body-sections-objective .objective,
+.main-container-body-sections-Reference .referee-name,
+.main-container-body-sections-Reference .referee-job-title,
+.main-container-body-sections-Reference .referee-company-name,
+.main-container-body-sections-Reference .referee-email,
+.main-container-body-sections-Reference .referee-phone{
     display: flex;
     width: 50%;
 }
@@ -87,7 +93,12 @@
 .main-container-body-sections-experience .start-date-end-date label,
 .main-container-body-sections-experience .details label,
 .main-container-body-sections-skills .skills label,
-.main-container-body-sections-objective .objective label{
+.main-container-body-sections-objective .objective label,
+.main-container-body-sections-Reference .referee-name label,
+.main-container-body-sections-Reference .referee-job-title label,
+.main-container-body-sections-Reference .referee-company-name label,
+.main-container-body-sections-Reference .referee-email label,
+.main-container-body-sections-Reference .referee-phone label{
     width: 40%;
 }
 
@@ -104,7 +115,12 @@
 .main-container-body-sections-experience .start-date-end-date input,
 .main-container-body-sections-experience .details textarea,
 .main-container-body-sections-skills .skills textarea,
-.main-container-body-sections-objective .objective textarea{
+.main-container-body-sections-objective .objective textarea,
+.main-container-body-sections-Reference .referee-name input,
+.main-container-body-sections-Reference .referee-job-title input,
+.main-container-body-sections-Reference .referee-company-name input,
+.main-container-body-sections-Reference .referee-email input,
+.main-container-body-sections-Reference .referee-phone input{
     width: 60%;
 }
 
