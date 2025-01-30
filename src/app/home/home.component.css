@@ -59,7 +59,11 @@
 .main-container-body-sections-personal-details .name,
 .main-container-body-sections-personal-details .address,
 .main-container-body-sections-personal-details .email,
-.main-container-body-sections-personal-details .phone{
+.main-container-body-sections-personal-details .phone,
+.main-container-body-sections-education .course-degree,
+.main-container-body-sections-education .school-university,
+.main-container-body-sections-education .grade-score,
+.main-container-body-sections-education .year{
     display: flex;
     width: 50%;
 }
@@ -67,14 +71,22 @@
 .main-container-body-sections-personal-details .name label,
 .main-container-body-sections-personal-details .address label,
 .main-container-body-sections-personal-details .email label,
-.main-container-body-sections-personal-details .phone label{
+.main-container-body-sections-personal-details .phone label,
+.main-container-body-sections-education .course-degree label,
+.main-container-body-sections-education .school-university label,
+.main-container-body-sections-education .grade-score label,
+.main-container-body-sections-education .year label{
     width: 40%;
 }
 
 .main-container-body-sections-personal-details .name input,
 .main-container-body-sections-personal-details .address textarea,
 .main-container-body-sections-personal-details .email input,
-.main-container-body-sections-personal-details .phone input{
+.main-container-body-sections-personal-details .phone input,
+.main-container-body-sections-education .course-degree input,
+.main-container-body-sections-education .school-university input,
+.main-container-body-sections-education .grade-score input,
+.main-container-body-sections-education .year input{
     width: 60%;
 }
 
