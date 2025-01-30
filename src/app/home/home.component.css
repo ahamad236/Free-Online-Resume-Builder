@@ -67,7 +67,9 @@
 .main-container-body-sections-experience .company-name,
 .main-container-body-sections-experience .job-title,
 .main-container-body-sections-experience .start-date-end-date,
-.main-container-body-sections-experience .details{
+.main-container-body-sections-experience .details,
+.main-container-body-sections-skills .skills,
+.main-container-body-sections-objective .objective{
     display: flex;
     width: 50%;
 }
@@ -83,7 +85,9 @@
 .main-container-body-sections-experience .company-name label,
 .main-container-body-sections-experience .job-title label,
 .main-container-body-sections-experience .start-date-end-date label,
-.main-container-body-sections-experience .details label{
+.main-container-body-sections-experience .details label,
+.main-container-body-sections-skills .skills label,
+.main-container-body-sections-objective .objective label{
     width: 40%;
 }
 
@@ -98,7 +102,9 @@
 .main-container-body-sections-experience .company-name input,
 .main-container-body-sections-experience .job-title input,
 .main-container-body-sections-experience .start-date-end-date input,
-.main-container-body-sections-experience .details textarea{
+.main-container-body-sections-experience .details textarea,
+.main-container-body-sections-skills .skills textarea,
+.main-container-body-sections-objective .objective textarea{
     width: 60%;
 }
 
