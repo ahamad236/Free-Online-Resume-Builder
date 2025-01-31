@@ -1,9 +1,9 @@
-.main-container{
+.main-container {
     width: 100vw;
     height: 100vh;
 }
 
-.main-container-header{
+.main-container-header {
     height: 15%;
     background-color: aqua;
     display: flex;
@@ -11,14 +11,14 @@
     align-items: center;
 }
 
-.main-container-body{
+.main-container-body {
     height: 77%;
     overflow: auto;
 }
 
 .main-container-body-sections,
 .main-container-body-more-sections,
-.main-container-body-manage-sections{
+.main-container-body-manage-sections {
     margin: 1em;
     display: flex;
     flex-direction: column;
@@ -26,12 +26,12 @@
     justify-content: center;
 }
 
-.main-container-body-sections-personal-details, 
+.main-container-body-sections-personal-details,
 .main-container-body-sections-education,
-.main-container-body-sections-experience, 
+.main-container-body-sections-experience,
 .main-container-body-sections-skills,
 .main-container-body-sections-objective,
-.main-container-body-sections-Reference{
+.main-container-body-sections-Reference {
     margin: 1em;
     width: 50%;
     display: flex;
@@ -40,22 +40,22 @@
     justify-content: center;
 }
 
-.main-container-body-sections-personal-details h3, 
+.main-container-body-sections-personal-details h3,
 .main-container-body-sections-education h3,
 .main-container-body-sections-experience h3,
 .main-container-body-sections-skills h3,
 .main-container-body-sections-objective h3,
-.main-container-body-sections-Reference h3{
+.main-container-body-sections-Reference h3 {
     margin: 1em;
 }
 
-.main-container-body-sections-personal-details > div, 
-.main-container-body-sections-education > div,
-.main-container-body-sections-experience > div,
-.main-container-body-sections-skills > div,
-.main-container-body-sections-objective > div,
+.main-container-body-sections-personal-details>div,
+.main-container-body-sections-education>div,
+.main-container-body-sections-experience>div,
+.main-container-body-sections-skills>div,
+.main-container-body-sections-objective>div,
 /* .main-container-body-sections-Reference > div > div{ */
-.main-container-body-sections-Reference > div{
+.main-container-body-sections-Reference>div {
     margin: 1em 1em 1em 2em;
 }
 
@@ -77,7 +77,7 @@
 .main-container-body-sections-Reference .referee-job-title,
 .main-container-body-sections-Reference .referee-company-name,
 .main-container-body-sections-Reference .referee-email,
-.main-container-body-sections-Reference .referee-phone{
+.main-container-body-sections-Reference .referee-phone {
     display: flex;
     width: 50%;
 }
@@ -100,7 +100,7 @@
 .main-container-body-sections-Reference .referee-job-title label,
 .main-container-body-sections-Reference .referee-company-name label,
 .main-container-body-sections-Reference .referee-email label,
-.main-container-body-sections-Reference .referee-phone label{
+.main-container-body-sections-Reference .referee-phone label {
     width: 40%;
 }
 
@@ -122,31 +122,31 @@
 .main-container-body-sections-Reference .referee-job-title input,
 .main-container-body-sections-Reference .referee-company-name input,
 .main-container-body-sections-Reference .referee-email input,
-.main-container-body-sections-Reference .referee-phone input{
+.main-container-body-sections-Reference .referee-phone input {
     width: 60%;
 }
 
-.main-container-body-sections-personal-details .address, 
+.main-container-body-sections-personal-details .address,
 .main-container-body-sections-experience .details,
 .main-container-body-sections-skills .skills,
-.main-container-body-sections-objective .objective{
+.main-container-body-sections-objective .objective {
     display: flex;
     align-items: center;
 }
 
-.main-container-body-sections-experience .start-date-end-date{
+.main-container-body-sections-experience .start-date-end-date {
     display: flex;
 }
 
-.main-container-body-more-sections{
+.main-container-body-more-sections {
     padding: 1em;
 }
 
-.main-container-body-manage-sections{
+.main-container-body-manage-sections {
     padding: 1em;
 }
 
-.main-container-footer{
+.main-container-footer {
     height: 8%;
     background-color: aqua;
     display: flex;
@@ -157,28 +157,188 @@
 
 /* MEDIA QUERIES STARTS FROM HERE */
 /* For Mobile Devices */
-@media (max-width: 480px){
+@media (max-width: 480px) {
+    .main-container-body-sections-personal-details,
+    .main-container-body-sections-education,
+    .main-container-body-sections-experience,
+    .main-container-body-sections-skills,
+    .main-container-body-sections-objective,
+    .main-container-body-sections-Reference {
+        width: 100%;
+    }
 
+    .main-container-body-sections-personal-details .name,
+    .main-container-body-sections-personal-details .address,
+    .main-container-body-sections-personal-details .email,
+    .main-container-body-sections-personal-details .phone,
+    .main-container-body-sections-education .course-degree,
+    .main-container-body-sections-education .school-university,
+    .main-container-body-sections-education .grade-score,
+    .main-container-body-sections-education .year,
+    .main-container-body-sections-experience .company-name,
+    .main-container-body-sections-experience .job-title,
+    .main-container-body-sections-experience .start-date-end-date,
+    .main-container-body-sections-experience .details,
+    .main-container-body-sections-skills .skills,
+    .main-container-body-sections-objective .objective,
+    .main-container-body-sections-Reference .referee-name,
+    .main-container-body-sections-Reference .referee-job-title,
+    .main-container-body-sections-Reference .referee-company-name,
+    .main-container-body-sections-Reference .referee-email,
+    .main-container-body-sections-Reference .referee-phone {
+        width: 100%;
+    }
+
+    .main-container-body-sections-personal-details .name label,
+    .main-container-body-sections-personal-details .address label,
+    .main-container-body-sections-personal-details .email label,
+    .main-container-body-sections-personal-details .phone label,
+    .main-container-body-sections-education .course-degree label,
+    .main-container-body-sections-education .school-university label,
+    .main-container-body-sections-education .grade-score label,
+    .main-container-body-sections-education .year label,
+    .main-container-body-sections-experience .company-name label,
+    .main-container-body-sections-experience .job-title label,
+    .main-container-body-sections-experience .start-date-end-date label,
+    .main-container-body-sections-experience .details label,
+    .main-container-body-sections-skills .skills label,
+    .main-container-body-sections-objective .objective label,
+    .main-container-body-sections-Reference .referee-name label,
+    .main-container-body-sections-Reference .referee-job-title label,
+    .main-container-body-sections-Reference .referee-company-name label,
+    .main-container-body-sections-Reference .referee-email label,
+    .main-container-body-sections-Reference .referee-phone label {
+        width: 50%;
+    }
+
+    .main-container-body-sections-personal-details .name input,
+    .main-container-body-sections-personal-details .address textarea,
+    .main-container-body-sections-personal-details .email input,
+    .main-container-body-sections-personal-details .phone input,
+    .main-container-body-sections-education .course-degree input,
+    .main-container-body-sections-education .school-university input,
+    .main-container-body-sections-education .grade-score input,
+    .main-container-body-sections-education .year input,
+    .main-container-body-sections-experience .company-name input,
+    .main-container-body-sections-experience .job-title input,
+    .main-container-body-sections-experience .start-date-end-date input,
+    .main-container-body-sections-experience .details textarea,
+    .main-container-body-sections-skills .skills textarea,
+    .main-container-body-sections-objective .objective textarea,
+    .main-container-body-sections-Reference .referee-name input,
+    .main-container-body-sections-Reference .referee-job-title input,
+    .main-container-body-sections-Reference .referee-company-name input,
+    .main-container-body-sections-Reference .referee-email input,
+    .main-container-body-sections-Reference .referee-phone input {
+        width: 50%;
+    }
 }
 
 /* For IPads and Tablets Devices */
-@media (min-width: 481px) and (max-width: 768px){
+@media (min-width: 481px) and (max-width: 768px) {
+    .main-container-body-sections-personal-details,
+    .main-container-body-sections-education,
+    .main-container-body-sections-experience,
+    .main-container-body-sections-skills,
+    .main-container-body-sections-objective,
+    .main-container-body-sections-Reference {
+        width: 80%;
+    }
 
+    .main-container-body-sections-personal-details .name,
+    .main-container-body-sections-personal-details .address,
+    .main-container-body-sections-personal-details .email,
+    .main-container-body-sections-personal-details .phone,
+    .main-container-body-sections-education .course-degree,
+    .main-container-body-sections-education .school-university,
+    .main-container-body-sections-education .grade-score,
+    .main-container-body-sections-education .year,
+    .main-container-body-sections-experience .company-name,
+    .main-container-body-sections-experience .job-title,
+    .main-container-body-sections-experience .start-date-end-date,
+    .main-container-body-sections-experience .details,
+    .main-container-body-sections-skills .skills,
+    .main-container-body-sections-objective .objective,
+    .main-container-body-sections-Reference .referee-name,
+    .main-container-body-sections-Reference .referee-job-title,
+    .main-container-body-sections-Reference .referee-company-name,
+    .main-container-body-sections-Reference .referee-email,
+    .main-container-body-sections-Reference .referee-phone {
+        width: 100%;
+    }
 }
 
 /* For Laptops and Small Devices */
-@media (min-width: 769px) and (max-width: 1024px){
-
+@media (min-width: 769px) and (max-width: 1024px) {
+    .main-container-body-sections-personal-details .name,
+    .main-container-body-sections-personal-details .address,
+    .main-container-body-sections-personal-details .email,
+    .main-container-body-sections-personal-details .phone,
+    .main-container-body-sections-education .course-degree,
+    .main-container-body-sections-education .school-university,
+    .main-container-body-sections-education .grade-score,
+    .main-container-body-sections-education .year,
+    .main-container-body-sections-experience .company-name,
+    .main-container-body-sections-experience .job-title,
+    .main-container-body-sections-experience .start-date-end-date,
+    .main-container-body-sections-experience .details,
+    .main-container-body-sections-skills .skills,
+    .main-container-body-sections-objective .objective,
+    .main-container-body-sections-Reference .referee-name,
+    .main-container-body-sections-Reference .referee-job-title,
+    .main-container-body-sections-Reference .referee-company-name,
+    .main-container-body-sections-Reference .referee-email,
+    .main-container-body-sections-Reference .referee-phone {
+        width: 100%;
+    }
 }
 
 /* For Large Screen and Monitors */
-@media (min-width: 1025px) and (max-width: 1200px){
-
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .main-container-body-sections-personal-details .name,
+    .main-container-body-sections-personal-details .address,
+    .main-container-body-sections-personal-details .email,
+    .main-container-body-sections-personal-details .phone,
+    .main-container-body-sections-education .course-degree,
+    .main-container-body-sections-education .school-university,
+    .main-container-body-sections-education .grade-score,
+    .main-container-body-sections-education .year,
+    .main-container-body-sections-experience .company-name,
+    .main-container-body-sections-experience .job-title,
+    .main-container-body-sections-experience .start-date-end-date,
+    .main-container-body-sections-experience .details,
+    .main-container-body-sections-skills .skills,
+    .main-container-body-sections-objective .objective,
+    .main-container-body-sections-Reference .referee-name,
+    .main-container-body-sections-Reference .referee-job-title,
+    .main-container-body-sections-Reference .referee-company-name,
+    .main-container-body-sections-Reference .referee-email,
+    .main-container-body-sections-Reference .referee-phone {
+        width: 70%;
+    }
 }
 
 /* For TV and Large Screens */
-@media (min-width: 1201px){
-
+@media (min-width: 1201px) {
+    .main-container-body-sections-personal-details .name,
+    .main-container-body-sections-personal-details .address,
+    .main-container-body-sections-personal-details .email,
+    .main-container-body-sections-personal-details .phone,
+    .main-container-body-sections-education .course-degree,
+    .main-container-body-sections-education .school-university,
+    .main-container-body-sections-education .grade-score,
+    .main-container-body-sections-education .year,
+    .main-container-body-sections-experience .company-name,
+    .main-container-body-sections-experience .job-title,
+    .main-container-body-sections-experience .start-date-end-date,
+    .main-container-body-sections-experience .details,
+    .main-container-body-sections-skills .skills,
+    .main-container-body-sections-objective .objective,
+    .main-container-body-sections-Reference .referee-name,
+    .main-container-body-sections-Reference .referee-job-title,
+    .main-container-body-sections-Reference .referee-company-name,
+    .main-container-body-sections-Reference .referee-email,
+    .main-container-body-sections-Reference .referee-phone {
+        width: 60%;
+    }
 }
-
-
