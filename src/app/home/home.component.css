@@ -16,7 +16,9 @@
     overflow: auto;
 }
 
-.main-container-body-sections{
+.main-container-body-sections,
+.main-container-body-more-sections,
+.main-container-body-manage-sections{
     margin: 1em;
     display: flex;
     flex-direction: column;
